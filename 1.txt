@@ -1,0 +1,16 @@
+border 邊界 用法：{2px solid rgb(0,0,0)}
+border-radius 邊界角曲度
+top bottom left right 物件邊界與網頁邊界距離 用法：數字越小 距離邊界越近
+cursor 鼠標觸發圖示
+display 顯示方式
+text-align 文字位置 常用用法：{left/center/right}
+font-size 文字大小
+color 文字顏色
+background-color 背景顏色
+
+=====================
+html     : css
+         = basic value
+class    = .
+id       = #
+=====================
