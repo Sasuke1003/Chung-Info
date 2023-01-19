@@ -5,12 +5,14 @@
 :root {
 	font-size: 15px;
 }
+
+/*.......................start body.......................*/
 body{
 	font-family: 'Quicksand', sans-serif;
 	padding-left:30px;
 	padding-right:30px;
 	min-height: 100vh;
-	background-color: ;
+	background-color: #fff;
 	background-image:
 		radial-gradient(closest-side, rgba(
 		235, 105, 78, 1), rgba(235, 105, 78, 0)),
@@ -37,19 +39,101 @@ body{
 	background-repeat: no-repeat;
 	animation:10s movement linear infinite;
 }
+/*.......................end body.......................*/
 
-slide::after {
-	content:'';
-	display:block;
-	position: fixed;
-	width:100%;
-	height:100%;
+/*.......................start scrolldown.......................*/
+.scrolldown{
+	position:absolute;
+	bottom:80px;
+	left:50%;
+	width:40px;
+	height:40px;
+	transform: translateY(-80px) translateX(-50%)
+		rotate(45deg);
+}
+.scrolldown span{
+	position:absolute;
 	top:0;
 	left:0;
-	backdrop-filter:blur(10px);
-	-webkit-backdrop-filter:blur(10px);
+	display:block;
+	width:100%;
+	height:100%;
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+	animation: animate 1.5s linear infinite;
+	opacity: 0;
 }
+.scrolldown span:nth-child(1)
+{
+	transform: translate(-15px,-15px);
+	animation-delay: -0.4s;
+}
+.scrolldown span:nth-child(2)
+{
+	transform: translate(0px,0px);
+	animation-delay: -0.2s;
+}
+.scrolldown span:nth-child(3)
+{
+	transform: translate(15px,15px);
+	animation-delay: 0s;
+}
+@keyframes animate
+{
+	0%
+	{
+		top: -5px;
+		left: -5px;
+		opacity: 0;
+	}
+	25%
+	{
+		top: 0px;
+		left: 0px;
+		opacity: 1;
+	}
+	50%, 100%
+	{
+		top: 5px;
+		left: 5px;
+		opacity: 0;
+	}
+}
+/*.......................end scrolldown.......................*/
 
+/*.......................start wildboard.......................*/
+#wildboard-top{
+	background-color: #111;
+	left:0;
+	top:0;
+	border-bottom: 5px solid #333;
+	height:1.4%;
+	width: 100%;
+	position: absolute;
+}
+#wildboard-left{
+	background-color: #111;
+	left:0;
+	top:0;
+	bottom:0;
+	border-right: 5px solid #333;
+	height:100%;
+	width: 1.4%;
+	position: fixed;
+}
+#wildboard-right{
+	background-color: #111;
+	right:0;
+	top:0;
+	bottom:0;
+	border-left: 5px solid #333;
+	height:100%;
+	width: 1.4%;
+	position: fixed;
+}
+/*.......................end wildboard.......................*/
+
+/*.......................start maintitle.......................*/
 .maintitle{
 	position: relative;
 	z-index: 10;
@@ -164,8 +248,53 @@ slide::after {
 		40vmax 60vmax;
 	}
 }
+/*.......................end maintitle.......................*/
 
-/*start TOP MENU*/
+/*.......................start hnm.......................*/
+div .hnm {
+	display: inline;
+	float: left;
+	font-size:20px;
+	left:0;
+	overflow: hidden;
+	position: fixed;
+}
+.hnm a{
+	display: block;
+	padding: 8px;
+	background-color: #333;
+}
+.hnm ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color:#333;
+}
+.hnm li{
+	float: left;
+}
+.hnm li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.hnm li a:hover {
+  background-color: #666;
+}
+.hnm .active {
+	color: 008080;
+}
+.hnm .home{
+	padding-bottom:25%;
+	font-size:20px;
+	color: 008080;
+}
+/*.......................end hnm.......................*/
+
+/*.......................start TOP MENU.......................*/
 .top-menu {
 	left:0;
 	top:0;
@@ -231,9 +360,9 @@ slide::after {
 	background-color: rgb(0, 85, 124);
 	color: white;
   }
-/*end TOP MENU*/
+/*.......................end TOP MENU.......................*/
 
-/*start fotter*/
+/*.......................start fotter.......................*/
 #footer{
 	border-top: 5px solid rgb(0,0,0);
 	padding-top:30;
@@ -246,9 +375,18 @@ slide::after {
 	text-align: center;
 	font-size:15px;
 }
-/*end fotter*/
+/*.......................end fotter.......................*/
 
-/*start button*/
+/*****basic setting*****/
+/*****basic setting*****/
+/*****basic setting*****/
+/*****basic setting*****/
+/*****basic setting*****/
+/*****basic setting*****/
+/*****basic setting*****/
+/*****basic setting*****/
+
+/*.......................start button.......................*/
 .button {
 	border:2px solid rgb(46, 46, 46);
 	color: rgb(126, 126, 126);
@@ -261,9 +399,9 @@ slide::after {
 	cursor: pointer;
 	border-radius: 12px;
   }
-  /*end button*/
+  /*.......................end button.......................*/
 
-/*table*/
+/*.......................start table.......................*/
 table{
 	border:3px solid rgb(46,46,46);
 	border-radius: 12px;
@@ -292,145 +430,4 @@ tr:nth-child(even){
 	color: rgb(199, 0, 0);
 	font-family:'Times New Roman', Times, serif;
 }
-/*table*/
-
-#wildboard-top{
-	background-color: #111;
-	left:0;
-	top:0;
-	border-bottom: 5px solid #333;
-	height:1.4%;
-	width: 100%;
-	position: absolute;
-}
-#wildboard-left{
-	background-color: #111;
-	left:0;
-	top:0;
-	bottom:0;
-	border-right: 5px solid #333;
-	height:100%;
-	width: 1.4%;
-	position: fixed;
-}
-#wildboard-right{
-	background-color: #111;
-	right:0;
-	top:0;
-	bottom:0;
-	border-left: 5px solid #333;
-	height:100%;
-	width: 1.4%;
-	position: fixed;
-}
-
-/*scrolldown button*/
-.scrolldown{
-	position:absolute;
-	bottom:80px;
-	left:50%;
-	width:40px;
-	height:40px;
-	transform: translateY(-80px) translateX(-50%)
-		rotate(45deg);
-}
-.scrolldown span{
-	position:absolute;
-	top:0;
-	left:0;
-	display:block;
-	width:100%;
-	height:100%;
-	border-bottom: 2px solid #fff;
-	border-right: 2px solid #fff;
-	animation: animate 1.5s linear infinite;
-	opacity: 0;
-}
-.scrolldown span:nth-child(1)
-{
-	transform: translate(-15px,-15px);
-	animation-delay: -0.4s;
-}
-.scrolldown span:nth-child(2)
-{
-	transform: translate(0px,0px);
-	animation-delay: -0.2s;
-}
-.scrolldown span:nth-child(3)
-{
-	transform: translate(15px,15px);
-	animation-delay: 0s;
-}
-@keyframes animate
-{
-	0%
-	{
-		top: -5px;
-		left: -5px;
-		opacity: 0;
-	}
-	25%
-	{
-		top: 0px;
-		left: 0px;
-		opacity: 1;
-	}
-	50%, 100%
-	{
-		top: 5px;
-		left: 5px;
-		opacity: 0;
-	}
-}
-
-/*start of slide show
-
-slide::after {
-	content:'';
-	display:block;
-	position: fixed;
-	width:100%;
-	height:100%;
-	top:0;
-	left:0;
-	backdrop-filter:blur(10px);
-	-webkit-backdrop-filter:blur(10px);
-}
-slide{
-	display: flex;
-	justify-content: center;
-	align-items:center;
-	min-height: 100vh;
-}
-
-ul.slides{
-	position: relative;
-	width:600px;
-	height:280px;
-	list-style:none;
-	margin:0;
-	padding:0;
-	background-color:#eee;
-}
-
-li.slide{
-	margin:0;
-	padding:0;
-	width:inherit;
-	height:inherit;
-	position: absolute;
-	top:0;
-	left:0;
-}
-.slide:nth-of-type(1){
-	background-clor: #FF0000
-}
-.slide:nth-of-type(2){
-	background-clor: #FFFF00;
-	left:100%;
-}
-.slide:nth-of-type(3){
-	background-clor: #FFFFFF;
-	left:200%;
-}
-/*end of slide show*/
+/*.......................end table.......................*/
