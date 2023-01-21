@@ -12,7 +12,7 @@ body{
 	padding-left:30px;
 	padding-right:30px;
 	min-height: 100vh;
-	background-color: #fff;
+	background: linear-gradient(#fff,#151515);
 	background-image:
 		radial-gradient(closest-side, rgba(
 		235, 105, 78, 1), rgba(235, 105, 78, 0)),
@@ -40,51 +40,6 @@ body{
 	animation:10s movement linear infinite;
 }
 /*.......................end body.......................*/
-
-/*.......................start hnm.......................*/
-.hnm {
-  position:sticky;
-	padding:0;
-  margin:0;
-	font-size:20px;
-	left:32px;
-  top:8px;
-	overflow: hidden;
-}
-.hnm a{
-	display: block;
-	padding: 8px;
-	background-color: #222;
-}
-.hnm ul{
-	list-style-type: none;
-	margin:0;
-	padding:0;
-	overflow: hidden;
-	background-color:#222;
-}
-.hnm li{
-	float: left;
-}
-.hnm li a{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 19px 16px;
-  text-decoration: none;
-}
-.hnm li a:hover {
-  background-color: #666;
-}
-.hnm .help {
-  background-color: #008080;
-}
-.hnm .home{
-	padding-bottom:25px;
-	font-size:20px;
-	color: #008080;
-}
-/*.......................end hnm.......................*/
 
 /*.......................start scrolldown.......................*/
 .scrolldown{
@@ -147,15 +102,6 @@ body{
 /*.......................end scrolldown.......................*/
 
 /*.......................start wildboard.......................*/
-#wildboard-top{
-	background-color: #222;
-	left:0;
-	top:0;
-	border-right: 5px solid #222;
-	height:1.4%;
-	width: 100%;
-	position: fixed;
-}
 #wildboard-left{
 	background-color: #111;
 	left:0;
@@ -178,7 +124,7 @@ body{
 }
 /*.......................end wildboard.......................*/
 
-/*.......................start maintitle animation.......................*/
+/*.......................start maintitle.......................*/
 .maintitle{
 	position: relative;
 	z-index: 10;
@@ -293,11 +239,59 @@ body{
 		40vmax 60vmax;
 	}
 }
-/*.......................end maintitle animation.......................*/
+/*.......................end maintitle.......................*/
+
+/*.......................start hnm.......................*/
+.hnm {
+  position:sticky;
+  padding:0;
+  margin:0;
+	font-size:20px;
+	left:0px;
+  top:8px;
+	overflow: hidden;
+}
+.hnm a{
+	display: block;
+	padding: 8px;
+	background-color: #222;
+}
+.hnm ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color:#222;
+}
+.hnm li{
+	float: left;
+}
+.hnm li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 19px 16px;
+  text-decoration: none;
+}
+.hnm li a:hover {
+  background-color: #666;
+}
+.hnm .help {
+  background-color: #008080;
+}
+.hnm .home{
+	padding-bottom:25%;
+	font-size:20px;
+	color: #008080;
+}
+/*.......................end hnm.......................*/
+
+
 
 /*.......................start fotter.......................*/
 #footer{
 	border-top: 5px solid rgb(0,0,0);
+	padding-top:30;
 	position: fixed;
 	left: 0;
 	bottom: 0;
