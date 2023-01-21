@@ -41,6 +41,51 @@ body{
 }
 /*.......................end body.......................*/
 
+/*.......................start hnm.......................*/
+.hnm {
+  position:sticky;
+	padding:0;
+  margin:0;
+	font-size:20px;
+	left:32px;
+  top:8px;
+	overflow: hidden;
+}
+.hnm a{
+	display: block;
+	padding: 8px;
+	background-color: #222;
+}
+.hnm ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color:#222;
+}
+.hnm li{
+	float: left;
+}
+.hnm li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 19px 16px;
+  text-decoration: none;
+}
+.hnm li a:hover {
+  background-color: #666;
+}
+.hnm .help {
+  background-color: #008080;
+}
+.hnm .home{
+	padding-bottom:25px;
+	font-size:20px;
+	color: #008080;
+}
+/*.......................end hnm.......................*/
+
 /*.......................start scrolldown.......................*/
 .scrolldown{
 	position:absolute;
@@ -103,13 +148,13 @@ body{
 
 /*.......................start wildboard.......................*/
 #wildboard-top{
-	background-color: #111;
+	background-color: #222;
 	left:0;
 	top:0;
-	border-bottom: 5px solid #333;
+	border-right: 5px solid #222;
 	height:1.4%;
 	width: 100%;
-	position: absolute;
+	position: fixed;
 }
 #wildboard-left{
 	background-color: #111;
@@ -133,7 +178,7 @@ body{
 }
 /*.......................end wildboard.......................*/
 
-/*.......................start maintitle.......................*/
+/*.......................start maintitle animation.......................*/
 .maintitle{
 	position: relative;
 	z-index: 10;
@@ -248,124 +293,11 @@ body{
 		40vmax 60vmax;
 	}
 }
-/*.......................end maintitle.......................*/
-
-/*.......................start hnm.......................*/
-div .hnm {
-	display: inline;
-	float: left;
-	font-size:20px;
-	left:0;
-	overflow: hidden;
-	position: fixed;
-}
-.hnm a{
-	display: block;
-	padding: 8px;
-	background-color: #333;
-}
-.hnm ul{
-	list-style-type: none;
-	margin:0;
-	padding:0;
-	overflow: hidden;
-	background-color:#333;
-}
-.hnm li{
-	float: left;
-}
-.hnm li a{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.hnm li a:hover {
-  background-color: #666;
-}
-.hnm .active {
-	color: 008080;
-}
-.hnm .home{
-	padding-bottom:25%;
-	font-size:20px;
-	color: 008080;
-}
-/*.......................end hnm.......................*/
-
-/*.......................start TOP MENU.......................*/
-.top-menu {
-	left:0;
-	top:0;
-	position: sticky;
-	overflow: hidden;
-	background-color: #333;
-	font-family: Arial;
-  }
-  .top-menu a {
-	float: left;
-	font-size: 16px;
-	color: white;
-	text-align: center;
-	padding: 16px 16px;
-	text-decoration: none;
-  }
-  .top-menu a.home{
-	float: left;
-	background-color: rgb(0, 85, 124);
-	color: white;
-  }
-  .plus {
-	float: left;
-	overflow: hidden;
-  }
-  .plus .plusbtn {
-	font-size: 16px;
-	border: none;
-	outline: none;
-	color: white;
-	padding: 16px 16px;
-	background-color: inherit;
-	font-family: inherit;
-	margin: 0;
-  }
-  .top-menu a:hover, .plus:hover .plusbtn {
-	background-color: rgb(88, 88, 88);
-  }
-  .plus-content {
-	display: none;
-	position: absolute;
-	background-color: #f9f9f9;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-  }
-  .plus-content a {
-	float: none;
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-	text-align: left;
-  }
-  .plus-content a:hover {
-	background-color: #ddd;
-  }
-  .plus:hover .plus-content {
-	display: block;
-  }
-  .top-menu a.help {
-	float: right;
-	background-color: rgb(0, 85, 124);
-	color: white;
-  }
-/*.......................end TOP MENU.......................*/
+/*.......................end maintitle animation.......................*/
 
 /*.......................start fotter.......................*/
 #footer{
 	border-top: 5px solid rgb(0,0,0);
-	padding-top:30;
 	position: fixed;
 	left: 0;
 	bottom: 0;
