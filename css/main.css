@@ -5,7 +5,13 @@ OWNER: Lau Kin Chung
 THE LATEST VERSION WOULD BE FOUND ON "https://github.com/Sasuke1003"*/
 
 /*.......................start html setting.......................*/
+@import url('https://fonts.googlepis.com/css2?family=Quicksand&display=swap');
+
+:root {
+	font-size: 15px;
+}
 html{
+	height:100%;
 	scroll-behavior: smooth;
 		font-family: 'Quicksand', sans-serif;
 		padding-left:30px;
@@ -38,11 +44,20 @@ html{
 		background-repeat: no-repeat;
 		animation:10s movement linear infinite;
 }
+.user-drag{
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-webkit-user-modify: none;
+}
 /*.......................end html setting.......................*/
 
 /*.......................start body.......................*/
 body{
-
+}
+.body{
+	height:auto;
+	width:auto;
+	background-color:transparent;
 }
 /*.......................end body.......................*/
 
@@ -335,17 +350,18 @@ footer{
 /*****basic setting*****/
 /*****basic setting*****/
 
-/*.......................start button.......................*/
-@import url('https://fonts.googlepis.com/css2?family=Quicksand&display=swap');
+/*.......................start area.......................*/
+.sdbtn{
+	top:650px;
+	position: absolute;
+	width:96.63%;
+	margin:0;
+	margin-left:-6px;
+	padding:0;
+}
+/*.......................start area.......................*/
 
-:root {
-	font-size: 15px;
-}
-.user-drag{
-	-webkit-user-drag: none;
-	-webkit-user-select: none;
-	-webkit-user-modify: none;
-}
+/*.......................start button.......................*/
 #button {
 	border:2px solid rgb(46, 46, 46);
 	color: rgb(126, 126, 126);
@@ -359,10 +375,11 @@ footer{
 	border-radius: 12px;
 }
 .ivsbtn{
-	top:690px;
-	left:-15%;
-	width:120%;
-	height:165px;
+	margin:0;
+	padding:0;
+	top:0;
+	width:100%;
+	height:273px;
 	z-index: 12;
 	position: absolute;
 	background-color:transparent;
@@ -463,35 +480,10 @@ tr:nth-child(even){
 }
 .web{
 	width:100%;
-	height:300px;
+	height:450px;
 	margin-bottom:30px;
-	border-top:10px solid #222;
-	border-bottom:10px solid #222;
-	border-right:19px solid #222;
+	border-top:10px solid transparent;
+	border-bottom:10px solid transparent;
+	border-right:19px solid #111;
 	border-left:1px solid #222;
-}
-.bgv{
-	margin:0;
-	padding:0;
-	position: absolute;
-	width:100%;
-	height:100%;
-	z-index:-1000;
-	overflow: hidden;
-	top:0;
-	left:0;
-}
-.video {
-    position: absolute;
-    width: 100%;
-    height: 0;
-		margin-left: -25%;
-}
-
-.video .bgv {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
