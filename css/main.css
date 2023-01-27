@@ -112,7 +112,7 @@ body{
 	left:0;
 	top:0;
 	bottom:0;
-	border-bottom: 5px solid #00FF00;
+	border-bottom: 5px solid #222;
 	height:73px;
 	width: 100%;
 	position: fixed;
@@ -271,7 +271,7 @@ body{
 	top:10px;
 	overflow:hidden;
 	z-index:12;
-	border:5px solid #00FF00;
+	border:5px solid #222;
 	border-top-left-radius:12px;
 	border-top-right-radius: 12px;
 }
@@ -380,6 +380,10 @@ footer{
 	float:right;
 	background-color: #555;
 	border-radius: 10px;
+	outline:none;
+}
+.linkbtn:hover{
+	border-color:#00FF00;
 }
 /*.......................end button.......................*/
 
@@ -404,17 +408,23 @@ tr:nth-child(even){
 /*.......................end table.......................*/
 
 /*.......................start main.......................*/
+.tp hr{
+	border:7.5px solid #FF9900;
+	margin-bottom:0;
+}
 .main{
 	border-left:10px solid #FF9900;
 	border-right:20px solid #111111;
-	width:90%;
+	width:75%;
 	background-color: #333;
 	margin:auto;
-	margin-bottom:60px;
-	padding-bottom:30px;
+	margin-bottom:0px;
+	padding-bottom:100px;
 	color:#fff;
 	user-select: none;
 	position: relative;
+	margin-bottom:0px;
+	min-height:0px;
 }
 .main hr{
 	margin-top:auto;
@@ -434,6 +444,8 @@ tr:nth-child(even){
 .main h3{
 	margin-left:50px;
 	margin-bottom:20px;
+	font-size:20px;
+	color:#0AA;
 }
 .csS{/*h1 Chung's Studio*/
 	margin-right:50px;
@@ -451,12 +463,35 @@ tr:nth-child(even){
 }
 .web{
 	width:100%;
-	height:100%;
-	position: relative;
-	background: transparent;
+	height:300px;
 	margin-bottom:30px;
 	border-top:10px solid #222;
 	border-bottom:10px solid #222;
 	border-right:19px solid #222;
 	border-left:1px solid #222;
+}
+.bgv{
+	margin:0;
+	padding:0;
+	position: absolute;
+	width:100%;
+	height:100%;
+	z-index:-1000;
+	overflow: hidden;
+	top:0;
+	left:0;
+}
+.video {
+    position: absolute;
+    width: 100%;
+    height: 0;
+		margin-left: -25%;
+}
+
+.video .bgv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
