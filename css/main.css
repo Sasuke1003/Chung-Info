@@ -320,7 +320,7 @@ body{
 }
 .hnm .home {
 	padding-bottom:25%;
-	font-size:20px;
+	font-size:22px;
 	background-color: #008080;
 }
 /*.......................end hnm.......................*/
@@ -487,3 +487,23 @@ tr:nth-child(even){
 	border-right:19px solid #111;
 	border-left:1px solid #222;
 }
+
+/*.......................start window........................*/
+.window{
+	position: fixed;
+	float:right;
+	top:500px;
+	right:0px;
+	width:250px;
+	height:400px;
+	background-color: #f00;
+	z-index: 10;
+}
+.wins{
+	position: sticky;
+	top:500px;
+	width:250px;
+	height:400px;
+	background-color:#333;
+}
+/*.......................start window........................*/
