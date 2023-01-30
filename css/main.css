@@ -496,7 +496,7 @@ tr:nth-child(even){
 	top:280px;
 	width:255px;
 	height:400px;
-	background-color:rgba(255, 255, 255, 0.404);
+	background-color:#333;
 	z-index: 11;
 	border:5px solid #0A9;
 	border-radius:10px;
@@ -509,14 +509,14 @@ tr:nth-child(even){
 }
 #yt{
 	border:transparent;
-	background-color: rgba(180,180,180,0.3);
+	background-color:#333;
 }
 .yt li{
 	margin-top:5px;
 	margin-right:5px;
 	margin-bottom:0px;
 	width:100%;
-	color:#000;
+	color:rgb(11, 187, 114);
 	display:inline-block;
 	font-size:20px;
 	text-align: center;
