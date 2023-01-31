@@ -495,12 +495,23 @@ tr:nth-child(even){
 	float: right;
 	top:280px;
 	width:255px;
-	height:400px;
+	height:190px;
 	background-color:#333;
 	z-index: 11;
 	border:5px solid #0A9;
 	border-radius:10px;
 	margin-right:-6px;
+}
+.window2{
+	position:-webkit-sticky;
+	position: sticky;
+	float: left;
+	top:280px;
+	width:265px;
+	height:400px;
+	background-color:#333;
+	z-index: 11;
+	margin-left:-6px;
 }
 .yt{
 	position:relative;
