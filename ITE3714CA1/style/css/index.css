@@ -1,0 +1,29 @@
+table{
+  margin:50px;
+  width:1000px;
+  height:400px;
+}
+tr{
+}
+th{
+}
+.LEDMirage{
+  width:300px;
+  height:300px;
+}
+.Welcome{
+  text-align:  center;
+  height:50px;
+}
+.TFSST{
+  color:green;
+  font-size:18;
+  line-height: 20px;
+  height:140px;
+}
+.Enter{
+  text-align: center;
+}
+p{
+  margin-left:50px;
+}

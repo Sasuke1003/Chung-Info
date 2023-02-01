@@ -1,0 +1,55 @@
+table{
+  height:900px;
+  width:1900px;
+}
+.fsslogo{
+  text-align: center;
+  height:100px;
+}
+#fsslogo{
+  width:400px;
+  height:166px;
+}
+.menu{
+  height:561px;
+  width:202px;
+}
+p{
+  font-size: 50px;
+}
+.menubtn{
+  width:200px;
+  height:50px;
+}
+.fssvol1{
+  text-align: center;
+}
+#fssvol1{
+  width:400px;
+  height:555px;
+}
+.LED2{
+  text-align: right;
+}
+#LED2{
+  margin-right:40px;
+  width:300px;
+  height:477px;
+}
+p #td{
+  font-size:15px;
+  margin-left:50px;
+}
+#bullet{
+  width:200px;
+  height:250px;
+  margin-bottom:-50px;
+}
+p .clkwave{
+  font-size:24px;
+  font-style:bold;
+}
+#wave{
+  width:450px;
+  height:39px;
+}
