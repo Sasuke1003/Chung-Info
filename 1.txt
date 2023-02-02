@@ -14,3 +14,32 @@ html     : css
 class    = .
 id       = #
 =====================
+
+
+///////////////////////////////輪播圖模板///////////////////////////////////
+
+<link rel="stylesheet" href="css/slideshow.css">
+
+<div class="slideshowarea">
+	<ul class="slides">
+		<input type="radio" id="control-1" name="control" checked>
+		<input type="radio" id="control-2" name="control">
+		<input type="radio" id="control-3" name="control">
+		<input type="radio" id="control-4" name="control">
+		<input type="radio" id="control-5" name="control">
+		<li class="slide"><img src="" class="image"></li>
+		<li class="slide"><img src="" class="image"></li>
+		<li class="slide"><img src="" class="image"></li>
+		<li class="slide"><img src="" class="image"></li>
+		<li class="slide"><iframe class="image" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>	
+		<div class="controls-visible">
+			<label for="control-1"></label>
+			<label for="control-2"></label>
+			<label for="control-3"></label>
+			<label for="control-4"></label>
+			<label for="control-5"></label>
+		</div>
+	</ul>
+</div>
+
+///////////////////////////////輪播圖模板///////////////////////////////////

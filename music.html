@@ -13,6 +13,7 @@ THE LATEST VERSION WOULD BE FOUND ON "https://github.com/Sasuke1003"-->
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<script src="javascript/index.js"></script>
 		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/slideshow.css">
 		<link rel="icon" href="image/logo.ico" type="image/x-icon" size="128x128">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!--頁面邊框-->
@@ -30,7 +31,7 @@ THE LATEST VERSION WOULD BE FOUND ON "https://github.com/Sasuke1003"-->
      			<li><a href="https://www.w3schools.com/howto/default.asp" class="fa fa-book"> W3S</a></li>
 	  			<!--幫助選單-->
 	  			<div>
-					<li style="float:right"><a class="help" href="">Help</a></li>
+					<li style="float:right"><a class="setting" href="">Setting</a></li>
 						<li><audio muted loop><source src="image/ft.mp4" type="audio/mpeg"></audio></li>
 				</div>
 			</ul>
@@ -63,6 +64,31 @@ THE LATEST VERSION WOULD BE FOUND ON "https://github.com/Sasuke1003"-->
 			<div class="info">
 				<img src="image/csS.png" class="csSlogo"><h1 class="csS">Chung's Studio</h1><hr><hr>
 			</div>
+
+		<!--SLIDE SHOW START-->
+		<div class="slideshowarea">
+			<ul class="slides">
+				<input type="radio" id="control-1" name="control" checked>
+				<input type="radio" id="control-2" name="control">
+				<input type="radio" id="control-3" name="control">
+				<input type="radio" id="control-4" name="control">
+				<input type="radio" id="control-5" name="control">
+				<li class="slide"><img src="image/bg1.jpg" class="image"></li>
+				<li class="slide"><img src="image/bg2.jpg" class="image"></li>
+				<li class="slide"><img src="image/bg3.jpg" class="image"></li>
+				<li class="slide"><img src="image/bg4.jpg" class="image"></li>
+				<li class="slide"><iframe class="image" src="image/ft.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+				<div class="controls-visible">
+					<label for="control-1"></label>
+					<label for="control-2"></label>
+					<label for="control-3"></label>
+					<label for="control-4"></label>
+					<label for="control-5"></label>
+				</div>
+			</ul>
+		</div>
+		<!--SLIDE SHOW END-->
+
 		</div>
 		</div>
 	</body>
