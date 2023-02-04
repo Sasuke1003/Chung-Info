@@ -1,12 +1,29 @@
 html{
 
 }
+@media screen and (max-width:8000px){
+.body {width:600px}   
+}
+@media screen and (max-width:6000px){
+.body {width:400px}   
+}
+@media screen and (max-width:4000px){
+.body {width:200px}   
+}
+@media screen and (max-width:2000px){
+.body {width:100px}   
+}
+@media screen and (max-width:1000px){
+.body {width:500px}   
+}
 body{
+    background-size:1950px 1080px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position:left top;
-    background-image: url("https://Sasuke1003.github.io/Chungs-Info/image/bg4.jpg");
+    background-image:url(https://sasuke1003.github.io/Chung-Info/image/bg1.jpg);
     background-color: #ccc;
+    text-align: center;
 }
 footer{
 
