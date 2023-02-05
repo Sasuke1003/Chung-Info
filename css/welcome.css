@@ -50,7 +50,7 @@ body {background-color: #FFF;
 /*///////////////////////////////////////////////////////////////////////////////////////////*/
 
 /*//////////////////////////////////////////iphone13 Y///////////////////////////////////////*/
-@media screen and (max-width:390px) and (max-height:844px)and (min-width:390px) and (min-height:844px){
+@media screen and (max-width:473px) and (max-height:1024px)and (min-width:390px) and (min-height:844px){
 body {
     background-color: #000;
     background-size:390px 844px;
@@ -74,7 +74,7 @@ body {
 /*//////////////////////////////////////////iphone13 Y///////////////////////////////////////*/
 
 /*//////////////////////////////////////////iphone13 X//////////////////////////////////////////*/
-@media screen and (max-width:844px) and (max-height:390px) and (min-width:844px) and (min-height:390px){
+@media screen and (max-width:1024px) and (max-height:473px) and (min-width:844px) and (min-height:390px){
 body {
     background-color: #000;
     background-size:844px 390px;
