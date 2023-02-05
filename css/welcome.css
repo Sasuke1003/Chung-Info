@@ -23,35 +23,35 @@ body {background-color: #000;
     background-size:1920px 1080px;}   
 }
 @media (max-width:1080px) and (max-height:598px){
-body {background-color: #F0F;
+body {background-color: #222;
     background-size:1080px 598px;}   
 }
 @media (max-width:720px) and (max-height:399px){
-body {background-color: #F00;
+body {background-color: #444;
     background-size:720px 399px;}
 }
 @media (max-width:480px) and (max-height:266px){
-body {background-color: #0F0;
+body {background-color: #666;
     background-size:480px 266px;}
 }
 @media (max-width:240px) and (max-height:133px){
-body {background-color: #00F;
+body {background-color: #888;
     background-size:240px 133px}
 }
 @media (max-width:133px) and (max-height:74px){
-body {background-color: #FF0;
+body {background-color: #AAA;
     background-size:133px 74px;}
 }
 @media (max-width:0px) and (max-height:0px){
-body {background-color: #FFF;
+body {background-color: #CCC;
     background-size:0px 0px;}
 }
 /*像素尺寸顯示*/
 
 /*///////////////////////////////////////////////////////////////////////////////////////////*/
 
-/*//////////////////////////////////////////iphone13 Y///////////////////////////////////////*/
-@media screen and (max-width:473px) and (max-height:1024px){
+/*//////////////////////////////////////////iphone13 Y///////////////////////////////////////DONE*/
+@media screen and (max-width:390px) and (max-height:844px){
 body {
     background-color: #000;
     background-size:390px 844px;
@@ -72,10 +72,10 @@ body {
     border:7px solid rgb(37, 37, 37)
     }
 }
-/*//////////////////////////////////////////iphone13 Y///////////////////////////////////////*/
+/*//////////////////////////////////////////iphone13 Y///////////////////////////////////////DONE*/
 
-/*//////////////////////////////////////////iphone13 X//////////////////////////////////////////*/
-@media screen and (max-width:1024px) and (max-height:473px){
+/*//////////////////////////////////////////iphone13 X//////////////////////////////////////////DONE*/
+@media screen and (max-width:844px) and (max-height:390px){
 body {
     background-color: #000;
     background-size:844px 390px;
@@ -96,10 +96,10 @@ body {
     border:7px solid rgb(37,37,37)
     }
 }
-/*//////////////////////////////////////////iphone13 X//////////////////////////////////////////*/
+/*//////////////////////////////////////////iphone13 X//////////////////////////////////////////DONE*/
 
 /*/////////////////////////////////////////////PC///////////////////////////////////////////////*/
-@media screen and (max-width:1920px) and (max-height:970px) and (min-width:1080px) and (min-height:546px){
+@media screen and (max-width:1920px) and (max-height:969px) and (min-width:1080px) and (min-height:545px){
 body {
     background-color: #000;
     background-size:1920px 1080px;
@@ -156,7 +156,7 @@ body {
 /*/////////////////////////////////////////////PC///////////////////////////////////////////////*/
 
 /*////////////////////////////////////////Full screen///////////////////////////////////////////*/
-@media screen and (max-height:1080px) and (min-height:971px){
+@media screen and (max-height:1080px) and (min-height:970px){
  body {
     background-color: #000;
     background-size:1950px 1080px;
