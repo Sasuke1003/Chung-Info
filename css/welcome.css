@@ -4,6 +4,7 @@ html{
 	user-select: none;
 	-webkit-user-select: none;
     font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 body{
     background-size:1920px 1080px;
@@ -50,7 +51,7 @@ body {background-color: #FFF;
 /*///////////////////////////////////////////////////////////////////////////////////////////*/
 
 /*//////////////////////////////////////////iphone13 Y///////////////////////////////////////*/
-@media screen and (max-width:473px) and (max-height:1024px)and (min-width:390px) and (min-height:844px){
+@media screen and (max-width:473px) and (max-height:1024px){
 body {
     background-color: #000;
     background-size:390px 844px;
@@ -74,7 +75,7 @@ body {
 /*//////////////////////////////////////////iphone13 Y///////////////////////////////////////*/
 
 /*//////////////////////////////////////////iphone13 X//////////////////////////////////////////*/
-@media screen and (max-width:1024px) and (max-height:473px) and (min-width:844px) and (min-height:390px){
+@media screen and (max-width:1024px) and (max-height:473px){
 body {
     background-color: #000;
     background-size:844px 390px;
@@ -98,7 +99,12 @@ body {
 /*//////////////////////////////////////////iphone13 X//////////////////////////////////////////*/
 
 /*/////////////////////////////////////////////PC///////////////////////////////////////////////*/
-@media screen and (max-width:1920px) and (max-height:980px) and (min-width:1920px) and (min-height:980px){
+@media screen and (max-width:1920px) and (max-height:970px) and (min-width:1080px) and (min-height:546px){
+body {
+    background-color: #000;
+    background-size:1920px 1080px;
+    background-image:url(https://Sasuke1003.github.io/Chung-Info/image/bg4.jpg);
+    }
 .welcome{
     width: 100%;
     height: 60px;
@@ -150,7 +156,7 @@ body {
 /*/////////////////////////////////////////////PC///////////////////////////////////////////////*/
 
 /*////////////////////////////////////////Full screen///////////////////////////////////////////*/
-@media screen and (max-height:1080px) and (min-height:981px){
+@media screen and (max-height:1080px) and (min-height:971px){
  body {
     background-color: #000;
     background-size:1950px 1080px;
