@@ -1,5 +1,6 @@
 html{
-
+	-webkit-user-drag: none;
+	user-select: none;
 }
 body{
     background-size:1920px 1080px;
@@ -42,10 +43,54 @@ body {background-color: #FFF;
 
 /*iphone13*/
 @media (max-width:390px) and (max-height:844px){
-    body {background-color: #FFF;
-        background-size:390px 844px;
-        background-image:url(https://Sasuke1003.github.io/Chung-Info/image/iphone13.jpg)}
-    }
-footer{
-
+body {
+    background-color: #000;
+    background-size:390px 844px;
+    background-image:url(https://Sasuke1003.github.io/Chung-Info/image/iphone13.jpg)}
+}
+.welcome{
+    width: 500px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    line-height: 50px;
+    color: #000;
+    background-color: transparent;
+    position: relative;
+    transition: all .3s linear;
+    left:-40px;
+    top:349px;
+    padding-top:0px;
+    display:block;
+    background-color: transparent;
+}
+.welcome::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    box-sizing: border-box;
+    border-top: 3px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s linear;
+}
+.welcome::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    box-sizing: border-box;
+    border-bottom: 3px solid #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all .3s ease;
+}
+.welcome:hover::before,
+.welcome:hover::after{
+    width: 100%;
+    height: 100%;
 }
