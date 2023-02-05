@@ -1,6 +1,7 @@
 html{
 	-webkit-user-drag: none;
 	user-select: none;
+	-webkit-user-select: none;
 }
 body{
     background-size:1920px 1080px;
