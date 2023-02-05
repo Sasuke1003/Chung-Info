@@ -58,13 +58,13 @@ body {
     }
 .welcome{
     text-align: center;
-    width:100%;
+    width:300px;
     height:100%;
     display:block;
     justify-content: center;
     color:#fff;
     position: relative;
-    left:-7px;
+    left:8%;
     top:300px;
     background-color: #555;
     font-size:40px;
