@@ -106,7 +106,7 @@ body {
     background-image:url(https://Sasuke1003.github.io/Chung-Info/image/bg4.jpg);
     }
 .welcome{
-    width: 100%;
+    width: 600px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -114,19 +114,19 @@ body {
     color: #000;
     position: relative;
     transition: all .3s linear;
-    left:0;
-    top:280px;
+    left:31.8%;
+    top:329px;
     padding-top:40px;
     padding-bottom:40px;
     display:block;
-    background-color: transparent;
+    background-color: rgba(146, 146, 146, 0.226);
     font-size:30px;
     color:#fff;
     }
 .welcome::before{
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 0px;
+    height: 0px;
     display: block;
     box-sizing: border-box;
     position: absolute;
@@ -137,8 +137,8 @@ body {
     }
 .welcome::after{
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 0px;
+    height: 0px;
     display: block;
     box-sizing: border-box;
     border-bottom: 3px solid #fff;
@@ -147,6 +147,10 @@ body {
     right: 0;
     transition: all .3s ease;
     }
+.welcome:hover{
+    color:rgb(44, 255, 44);
+    background-color: rgba(36, 36, 36, 0.226);
+}
 .welcome:hover::before,
 .welcome:hover::after{
     width: 100%;
@@ -163,7 +167,7 @@ body {
     background-image:url(https://Sasuke1003.github.io/Chung-Info/image/fullscreen.jpg);
     } 
 .welcome{
-    width: 100%;
+    width: 600px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -171,19 +175,19 @@ body {
     color: #000;
     position: relative;
     transition: all .3s linear;
-    left:0;
-    top:280px;
+    left:31.8%;
+    top:400px;
     padding-top:40px;
     padding-bottom:40px;
     display:block;
-    background-color: transparent;
+    background-color: rgba(146, 146, 146, 0.226);
     font-size:30px;
     color:#fff;
     }
 .welcome::before{
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 0px;
+    height: 0px;
     display: block;
     box-sizing: border-box;
     position: absolute;
@@ -194,8 +198,8 @@ body {
     }
 .welcome::after{
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 0px;
+    height: 0px;
     display: block;
     box-sizing: border-box;
     border-bottom: 3px solid #fff;
@@ -204,6 +208,10 @@ body {
     right: 0;
     transition: all .3s ease;
     }
+.welcome:hover{
+    color:rgb(44, 255, 44);
+    background-color: rgba(36, 36, 36, 0.226);
+}
 .welcome:hover::before,
 .welcome:hover::after{
     width: 100%;
