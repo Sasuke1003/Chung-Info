@@ -134,7 +134,7 @@ body {background-color: #FFF;
 @media (max-height:390px) and (max-width:844px){
 body {
     background-color: #000;
-    background-size:390px 844px;
+    background-size:844px 390px;
     background-image:url(https://Sasuke1003.github.io/Chung-Info/image/iphone13X.jpg);
 }
 .welcome{
@@ -151,3 +151,10 @@ body {
 }
 
 /*///IPAD 8 X///*/
+@media (max-height:2160px) and (max-width:1620px){
+    body {
+        background-color: #000;
+        background-size:2160px 1620px;
+        background-image:url(https://Sasuke1003.github.io/Chung-Info/image/ipad8X.jpg);
+    }
+}
