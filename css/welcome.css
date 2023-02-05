@@ -68,15 +68,17 @@ body {background-color: #FFF;
 }
 
 /*///iphone13 Y///*/
-@media (max-width:390px) and (max-height:844px) and (min-width:390px) and (min-height:844px){
+@media (max-width:390px) and (max-height:844px){
     body {
         background-color: #000;
         background-size:390px 844px;
         background-image:url(https://Sasuke1003.github.io/Chung-Info/image/iphone13Y.jpg);
     }
 }
+/*///iphone13 Y///*/
+
 /*///iphone13 X///*/
-@media (max-height:390px) and (max-width:844px) and (min-height:390px) and (min-width:844px){
+@media (max-height:390px) and (max-width:844px){
 body {
     background-color: #000;
     background-size:844px 390px;
@@ -94,16 +96,7 @@ body {
     color:#fff;
 }
 }
-
-/*///IPAD 8 X///*/
-@media (max-width:2160px) and (max-height:1620px) and (min-width:2160px) and (min-height:1620px){
-    body {
-        background-color: #000;
-        background-size:2160px 1620px;
-        background-image:url(https://Sasuke1003.github.io/Chung-Info/image/ipad8X.jpg);
-    }
-}
-/*///IPAD 8 X///*/
+/*///iphone13 X///*/
 
 /*///PC///*/
 @media (max-width:1920px) and (max-height:1080px) and (min-width:1920px) and (min-height:1080px){
