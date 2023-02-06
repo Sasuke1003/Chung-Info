@@ -99,7 +99,7 @@ body {
 /*//////////////////////////////////////////iphone13 X//////////////////////////////////////////DONE*/
 
 /*/////////////////////////////////////////////PC///////////////////////////////////////////////*/
-@media screen and (max-width:1920px) and (max-height:969px) and (min-width:1080px) and (min-height:545px){
+@media screen and (max-width:1920px) and (max-height:969px) and (min-width:1081px) and (min-height:846px){
 body {
     background-color: #000;
     background-size:1920px 1080px;
