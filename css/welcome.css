@@ -221,11 +221,25 @@ body {
 /*////////////////////////////////////////Full screen///////////////////////////////////////////*/
 
 /*///////////////////////////////////////////ipad8//////////////////////////////////////////////*/
-@media screen and (max-width:2160px) and (max-height:1390px){
+@media screen and (min-width:2160px) and (min-height:1390px){
 body{
 	background-color:#000;
 	background-size: 1080px 695px;
 	background-image:url(https://Sasuke1003.github.io/Chung-Info/image/ipad8X.jpg);
+    }
+.welcome{
+    text-align: center;
+    width:300px;
+    height:100%;
+    display:block;
+    justify-content: center;
+    color:#fff;
+    position: relative;
+    left:8%;
+    top:300px;
+    background-color: #555;
+    font-size:40px;
+    border:7px solid rgb(37, 37, 37)
     }
 }
 /*///////////////////////////////////////////ipad8//////////////////////////////////////////////*/
