@@ -119,7 +119,7 @@ input[type="radio"] {
 
 .image{
 	-webkit-user-drag: none;
-	-webkit-user-select: none;
+	user-select: none;
 	-webkit-user-modify: none;
     width:1000px;
     height:563px;
