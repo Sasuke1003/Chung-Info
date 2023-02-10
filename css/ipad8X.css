@@ -281,7 +281,7 @@ html{
 	margin:0;
 	font-size:20px;
 	left:0px;
-	top:10px;
+	top:9px;
 	overflow:hidden;
 	z-index:12;
 	border:5px solid #222;
@@ -493,7 +493,7 @@ tr:nth-child(even){
 }
 .csS{/*h1 Chung's Studio*/
 	position: absolute;
-	top:50px;
+	top:250px;
 	left:480px;
 }
 /*.......................end main.......................*/
@@ -502,7 +502,7 @@ tr:nth-child(even){
 .csSlogo{
 	position: absolute;
 	-webkit-user-drag:none;
-	top:55px;
+	top:245px;
 	left: 40px;
 }
 .web{
@@ -531,7 +531,7 @@ tr:nth-child(even){
 }
 .window2{
 	position:-webkit-sticky;
-	position: sticky;
+	position: absolute;
 	float: left;
 	top:280px;
 	width:245px;
