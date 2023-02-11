@@ -539,6 +539,10 @@ tr:nth-child(even){
 	border:10px solid #111;
 	border-radius:12px;
 }
+.window2md{
+	position:fixed;
+	bottom:0px;
+}
 .yt{
 	position:relative;
 	width:100%;

@@ -52,9 +52,6 @@ html{
 /*.......................end html setting.......................*/
 
 /*.......................start body.......................*/
-body{
-	
-}
 .body{
 	height:auto;
 	width:auto;
@@ -132,7 +129,7 @@ body{
 	height:73px;
 	width: 100%;
 	position: fixed;
-	z-index: 11;
+	z-index: 12;
 }
 #wildboard-left{
 	background-color: #111;
@@ -284,7 +281,7 @@ body{
 	margin:0;
 	font-size:20px;
 	left:0px;
-	top:10px;
+	top:9px;
 	overflow:hidden;
 	z-index:12;
 	border:5px solid #222;
@@ -353,22 +350,26 @@ footer{
 
 /*.......................start area.......................*/
 .sdbtn{
-	top:650px;
+	top:450px;
 	position: absolute;
-	width:96.63%;
+	width:100%;
+	height:315px;
 	margin:0;
-	margin-left:-6px;
+	left:5px;
 	padding:0;
+	z-index: 10;
 }
 /*.......................start area.......................*/
 
 /*.......................start button.......................*/
+a{
+	text-decoration: none;
+}
 #button {
 	border:2px solid rgb(46, 46, 46);
 	color: rgb(126, 126, 126);
 	padding: 4px 16px;
 	text-align: center;
-	text-decoration: none;
 	display:inline-block;
 	font-size: 15px;
 	margin: 4px 2px;
@@ -380,7 +381,7 @@ footer{
 	padding:0;
 	top:0;
 	width:100%;
-	height:273px;
+	height:100%;
 	z-index: 12;
 	position: absolute;
 	background-color:transparent;
@@ -426,26 +427,48 @@ footer{
 .sidebtn:hover{
 	border-color:#00FF00;
 }
+.sidebtnmd{
+	display:block;
+	font-size:20px;
+	width:100%;
+	height:100px;
+	color:#fff;
+	cursor:pointer;
+	background-color: #222;
+	border:none;
+	outline:none;
+}
+.sidebtn2md{
+	display:block;
+	font-size:20px;
+	width:100%;
+	height:100px;
+	color:#fff;
+	cursor:pointer;
+	background-color: #333;
+	border:none;
+	outline:none;
+}
+.sidebtnmd:hover{
+	background-color:#555;
+}
+.sidebtn2md:hover{
+	color:rgb(17, 192, 148);
+}
 /*.......................end button.......................*/
 
 /*.......................start table.......................*/
 .table{
-	width:100%;
-	height:100%;
-	border:3px solid rgb(46,46,46);
-	border-radius: 5px;
-	background-color: #aaaaaa;
-	color: black
+	border-collapse: collapse;
+	border:none;
+	position:relative;
+	width:890px;
+	background-color:#222;
 }
-th{
-	background-color: #696969;
-}
-th, td{
+td{
+	background-color: #222;
+	width:20%;
 	text-align: center;
-	padding: 2px;
-}
-tr:nth-child(even){
-	background-color: #cccccc;
 }
 /*.......................end table.......................*/
 
@@ -457,7 +480,7 @@ tr:nth-child(even){
 .main{
 	border-left:10px solid #FF9900;
 	border-right:20px solid #111111;
-	width:70%;
+	width:90%;
 	height:1960px;
 	background-color: #333;
 	margin:auto;
@@ -470,12 +493,11 @@ tr:nth-child(even){
 	min-height:0px;
 }
 .main hr{
-	margin-top:auto;
 	width:90%;
 }
 .main h1{
 	margin-bottom:0px;
-	margin-left:20px;
+	margin-left:0px;
 	margin-top:40px;
 	font-size:50px;
 }
@@ -490,19 +512,21 @@ tr:nth-child(even){
 	font-size:20px;
 	color:#0AA;
 }
+.info{
+	margin-top:-80px;
+}
 .csS{/*h1 Chung's Studio*/
-	margin-right:50px;
-	margin-top:50px;
-	float:right;
+	position: relative;
+	left:480px;
 }
 /*.......................end main.......................*/
 
 /*.......................PHOTOS & VIDEO & WEBSITE EDITOR........................*/
 .csSlogo{
-	margin-top:20px;
-	margin-left:50px;
+	position: relative;
 	-webkit-user-drag:none;
-	float:left;
+	top:105px;
+	left: 40px;
 }
 .web{
 	width:100%;
@@ -516,30 +540,35 @@ tr:nth-child(even){
 
 /*.......................start window........................*/
 .window{
-	position:-webkit-sticky;
-	position: sticky;
-	float: right;
-	top:280px;
+	position: absolute;
+	left:200px;
+	top:1000px;
 	width:255px;
 	height:190px;
 	background-color:#333;
-	z-index: 11;
-	border:5px solid #0A9;
-	border-radius:10px;
-	margin-right:-6px;
+	z-index: 0;
 }
 .window2{
 	position:-webkit-sticky;
-	position: sticky;
-	float: left;
-	top:280px;
-	width:245px;
-	height:380px;
-	background-color:#333;
+	position: relative;
+	top:400px;
+	left:50px;
+	width:90%;
+	height:100px;
+	background-color:#222;
+	z-index: 0;
+	margin-left:-6px;
+}
+.window2md{
+	position:-webkit-sticky;
+	position: relative;
+	top:100px;
+	left:50px;
+	width:889px;
+	height:100px;
+	background-color:#222;
 	z-index: 11;
 	margin-left:-6px;
-	border:10px solid #111;
-	border-radius:12px;
 }
 .yt{
 	position:relative;
