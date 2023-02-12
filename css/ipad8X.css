@@ -462,7 +462,7 @@ a{
 	border-collapse: collapse;
 	border:none;
 	position:relative;
-	width:890px;
+	width:100%;
 	background-color:#222;
 }
 td{
@@ -564,7 +564,7 @@ td{
 	position: relative;
 	top:100px;
 	left:51px;
-	width:900px;
+	width:905px;
 	height:100px;
 	background-color:#222;
 	z-index: 11;
