@@ -5,7 +5,7 @@ OWNER: Lau Kin Chung
 THE LATEST VERSION WOULD BE FOUND ON "https://github.com/Sasuke1003"*/
 
 /*.......................start html setting.......................*/
-@import url('https://fonts.googlepis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 :root {
 	font-size: 15px;
@@ -126,7 +126,7 @@ html{
 	top:0;
 	bottom:0;
 	border-bottom: 5px solid #222;
-	height:73px;
+	height:75px;
 	width: 100%;
 	position: fixed;
 	z-index: 12;
