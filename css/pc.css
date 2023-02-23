@@ -123,17 +123,6 @@ body{
 /*.......................end scrolldown.......................*/
 
 /*.......................start wildboard.......................*/
-#wildboard-top{
-	background-color: #333;
-	left:0;
-	top:0;
-	bottom:0;
-	border-bottom: 5px solid #222;
-	height:75px;
-	width: 100%;
-	position: fixed;
-	z-index: 11;
-}
 #wildboard-left{
 	background-color: #111;
 	left:0;
@@ -279,50 +268,50 @@ body{
 
 /*.......................start hnm.......................*/
 .hnm {
+	display:block;
+	justify-content: center;
+	align-items: center;
 	position:sticky;
-	padding:0;
-	margin:0;
+	padding:0px;
+	margin:-8px;
+	height:60px;
 	font-size:20px;
 	left:0px;
-	top:10px;
+	top:0px;
 	overflow:hidden;
 	z-index:12;
-	border:5px solid #222;
-	border-top-left-radius:12px;
-	border-top-right-radius: 12px;
+	border:5px solid rgba(0, 0, 0, 0.8);
 }
 .hnm a {
 	display:block;
-	background-color: #222;
 }
 .hnm ul {
 	list-style-type: none;
 	margin:0;
 	padding:0;
 	overflow: hidden;
-	background-color:#222;
+	background-color:rgba(0, 0 , 0, 0.8);
 }
 .hnm li {
 	float: left;
 }
 .hnm li a {
 	display: block;
-	color: white;
+	color: #aaa;
 	text-align: center;
 	padding: 19px 16px;
 	text-decoration: none;
 }
 .hnm li a:hover {
-	background-color: #666;
+	color:#00b3a4;
 }
 .hnm .setting {
-	background-color: #008080;
 	height:20px;
 }
 .hnm .home {
+	margin-left:560px;
 	padding-bottom:25%;
-	font-size:22px;
-	background-color: #008080;
+	font-size:20px;
 }
 /*.......................end hnm.......................*/
 
@@ -418,7 +407,7 @@ footer{
 	width:100%;
 	border:5px solid rgb(153, 9, 9);
 	color:#fff;
-	cursor:pointer;
+	cursor:auto;
 	background-color: #555;
 	border-radius: 10px;
 	outline:none;
