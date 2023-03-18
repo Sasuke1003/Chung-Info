@@ -52,9 +52,6 @@ html{
 /*.......................end html setting.......................*/
 
 /*.......................start body.......................*/
-body{
-	
-}
 .body{
 	height:auto;
 	width:auto;
@@ -309,7 +306,6 @@ body{
 	height:20px;
 }
 .hnm .home {
-	margin-left:560px;
 	padding-bottom:25%;
 	font-size:20px;
 }
