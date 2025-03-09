@@ -468,12 +468,18 @@ tr:nth-child(even){
 	padding-left:50px;
 	margin-bottom:0px;
 	font-size:30px;
+	color:gold;
 }
 .main h3{
 	margin-left:50px;
 	margin-bottom:20px;
 	font-size:20px;
 	color:#0AA;
+}
+.main p{
+	margin-left:50px;
+	margin-bottom:20px;
+	font-size:18px;
 }
 .csS{/*h1 Chung's Studio*/
 	float:right;
