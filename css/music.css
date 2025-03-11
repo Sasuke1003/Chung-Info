@@ -3,6 +3,7 @@ body, html {
     padding: 0;
     height: 100%;
     overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* 全屏背景容器 */
@@ -42,6 +43,7 @@ body, html {
     display:flex;
     align-items: center;
     justify-content: center;
+    text-shadow:4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
 .portfolio-title h3{
