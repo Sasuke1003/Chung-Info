@@ -133,7 +133,7 @@ footer {
     color: white;
     text-align: center;
     font-size: 15px;
-    z-index: 13;
+    z-index: 101; /* 设置比 grid-item 悬停时的 z-index 大，确保显示在上面 */
 }
 
 /* 网格容器 */
@@ -147,12 +147,34 @@ footer {
 .grid-item {
     position: relative;
     overflow: hidden;
+    transition: all 0.3s ease;
+    transform-origin: center center; /* 设置缩放的中心点为元素中心 */
 }
 
 .grid-item img {
     width: 100%;
     height: auto;
     display: block;
+    transition: all 0.3s ease;
+    transform-origin: center center; /* 设置图片缩放的中心点为元素中心 */
+}
+
+.grid-item:hover img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.grid-item:hover {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1); /* 初始将元素移动到页面中心并设置缩放比例为 1 */
+    width: calc(100% - 20px); /* 宽度减去左右 10px 的空白 */
+    height: calc(100% - 20px - 15px - 5px); /* 高度减去上下 10px 空白、footer 字体大小和边框宽度 */
+    z-index: 100;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 /* 悬停效果 */
