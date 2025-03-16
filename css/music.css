@@ -1,3 +1,13 @@
+
+@media (max-width: 768px) {
+    .portfolio-title h3 {
+        font-size: 2rem; /* 在小屏幕上减小标题字体 */
+    }
+    .portfolio-title p {
+        font-size: 0.8rem; /* 在小屏幕上减小描述字体 */
+    }
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -35,23 +45,22 @@ body, html {
 /* 其他内容样式 */
 .portfolio-title {
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.5);
     position: absolute;
     opacity: 0.8;
-    transition: opacity 0.3s ease, z-index 0s 0.3s;
+    transition: opacity 0.3s ease, z-index 0 0.3s;
     z-index: 10;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    text-shadow:4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
-.portfolio-title h3{
+.portfolio-title h3 {
     font-size: 3rem;
 }
 
-.portfolio-title p{
-    font-size:1rem;
+.portfolio-title p {
+    font-size: 1rem;
 }
 
 /* 轮播容器 */
@@ -80,10 +89,10 @@ body, html {
 /* 悬停效果 */
 .carousel-item:hover {
     flex: 3; 
-    z-index:10;
+    z-index: 10;
 }
 
-/* 覆盖层 */
+/* 公共覆盖层样式 */
 .overlay {
     position: absolute;
     top: 0;
@@ -100,32 +109,34 @@ body, html {
     transition: opacity 0.3s ease;
 }
 
-.carousel-item:hover .overlay {
-    opacity: 1;
+.carousel-item:hover .overlay,
+.grid-item:hover .overlay {
+    opacity: 1; /* 悬停时显示覆盖层 */
 }
 
 /* 悬停时隐藏标题 */
-.carousel-item:hover ~ .portfolio-title {
+.carousel-item:hover ~ .portfolio-title,
+.grid-item:hover ~ .portfolio-title {
     z-index: -1;
     opacity: 0;
 }
 
-/*.......................start fotter.......................*/
-footer{
-	user-select: none;
-	border-top: 5px solid rgb(0,0,0);
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: rgb(100, 100, 100);
-	color: white;
-	text-align: center;
-	font-size:15px;
-	z-index: 13;
+/* 页脚样式 */
+footer {
+    user-select: none;
+    border-top: 5px solid rgb(0, 0, 0);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    z-index: 13;
 }
-/*.......................end fotter.......................*/
 
+/* 网格容器 */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -144,22 +155,7 @@ footer{
     display: block;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
+/* 悬停效果 */
 .grid-item:hover .overlay {
     opacity: 1; /* 悬停时显示覆盖层 */
 }
